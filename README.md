@@ -1,8 +1,13 @@
-# React + Vite
+Hello coder buddy,
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run this weather app , all you need is to login into "OpenWeatherMap".
+Go to "My Api Keys" section under your profile
+copy that "key"(make sure it is activated) from there.
+create .env file in root of this project( after forking it)
+paste that key into .env file as-
+VITE_OPEN_WEATHER_API=key
 
-Currently, two official plugins are available:
+After setting up the .env,restart/run the app using command 
+npm run dev in terminal(make sure you are in right folder)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Make sure to run (npm install) to add all the node_modules after forking*
