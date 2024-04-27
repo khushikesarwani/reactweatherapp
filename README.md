@@ -10,4 +10,4 @@ VITE_OPEN_WEATHER_API=key
 After setting up the .env,restart/run the app using command 
 npm run dev in terminal(make sure you are in right folder)
 
-*Make sure to run (npm install) to add all the node_modules after forking*
+*Make sure to run (npm install) to add all packages in the node_modules after forking*
